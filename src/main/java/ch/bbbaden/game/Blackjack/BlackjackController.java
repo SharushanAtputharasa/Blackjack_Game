@@ -34,84 +34,14 @@ import javax.swing.JOptionPane;
  */
 public class BlackjackController implements Initializable {
 
-    @FXML
-    private AnchorPane ApBlackJack;
-    @FXML
-    private ImageView card1;
-    @FXML
-    private ImageView card2;
-    @FXML
-    private ImageView card3;
-    @FXML
-    private ImageView card4;
-    @FXML
-    private ImageView card5;
-    @FXML
-    private ImageView card6;
-    @FXML
-    private ImageView card7;
-    @FXML
-    private ImageView card8;
-    @FXML
-    private ImageView card9;
-    @FXML
-    private ImageView cardC1;
-    @FXML
-    private ImageView cardC2;
-    @FXML
-    private ImageView cardC3;
-    @FXML
-    private ImageView cardC4;
-    @FXML
-    private ImageView cardC5;
-    @FXML
-    private Button Confirm;
-    @FXML
-    private Button btnReset;
-    @FXML
-    private ImageView Coin3;
-    @FXML
-    private ImageView Coin2;
-    @FXML
-    private ImageView Coin1;
-    @FXML
-    private ImageView Coin;
-    @FXML
-    private TextField txtChipAmount;
-    @FXML
-    private Label lblCoin;
-    @FXML
-    private Label lblCoinRed;
-    @FXML
-    private Label lblCoinGreen;
-    @FXML
-    private Label lblCoinBlack;
-    @FXML
-    private Label lblPointsComputer;
-    @FXML
-    private Label lblPointsGamer;
-    @FXML
-    private Button btnhit;
-    @FXML
-    private Button btnstand;
-    @FXML
-    private Label lblResult;
-    @FXML
-    private Label lblWin;
-    @FXML
-    private Label txtChips;
-    @FXML
-    private Button btnInsurance;
-    @FXML
-    private Label lblInsurance;
-    @FXML
-    private Button btnDouble;
-    @FXML
-    private TextField txtInsuranceAmount;
-    @FXML
-    private ImageView ImageViewInsurance;
-    @FXML
-    private ImageView ImageViewDouble;
+    @FXML private AnchorPane ApBlackJack;
+    @FXML private ImageView card1, card2, card3, card4, card5, card6, card7, card8, card9, cardC1, cardC2, cardC3, cardC4, cardC5;
+    @FXML private ImageView Coin3, Coin2, Coin1, Coin, ImageViewInsurance, ImageViewDouble;
+    @FXML private Button Confirm, btnReset, btnhit, btnstand, btnInsurance, btnDouble;
+    @FXML private TextField txtChipAmount, txtInsuranceAmount;
+    
+    @FXML private Label lblCoin, lblCoinRed, lblCoinGreen, lblCoinBlack, lblPointsComputer, lblPointsGamer, lblResult, lblWin, txtChips, lblInsurance;
+ 
 
     private ArrayList<ImageView> cardViewsComputerZus = new ArrayList<>();
     private ArrayList<ImageView> cardViews;

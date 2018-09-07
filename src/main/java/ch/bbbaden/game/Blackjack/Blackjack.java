@@ -8,7 +8,6 @@ package ch.bbbaden.game.Blackjack;
 
 import java.util.ArrayList;
 import java.util.Random;
-import javafx.event.ActionEvent;
 
 /**
  *

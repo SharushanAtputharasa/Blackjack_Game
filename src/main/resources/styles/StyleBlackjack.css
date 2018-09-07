@@ -1,0 +1,10 @@
+.text-field
+{
+    -fx-text-fill: white;
+    -fx-font-size : 16pt;
+    -fx-font-weight:bold;	
+    -jfx-focus-color: white;
+    -fx-text-fill: derive(white, 20%);
+	-fx-prompt-text-fill: white;
+}
+
